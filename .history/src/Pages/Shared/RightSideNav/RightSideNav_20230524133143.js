@@ -3,7 +3,6 @@ import Button from 'react-bootstrap/Button';
 import ButtonGroup from 'react-bootstrap/ButtonGroup';
 import { FaFacebook, FaGithub, FaGoogle, FaTwitch, FaTwitter, FaWhatsapp } from "react-icons/fa";
 import ListGroup from 'react-bootstrap/ListGroup';
-import BrandCarousel from '../BrandCarousel/BrandCarousel';
 
 
 const RightSideNav = () => {
@@ -16,14 +15,15 @@ const RightSideNav = () => {
             <div className='mt-4'>
                 <h5>Find Us on</h5>
                 <ListGroup>
-                    <ListGroup.Item action className='mb-2 '><FaFacebook></FaFacebook>Facebook</ListGroup.Item>
-                    <ListGroup.Item action className='mb-2'><FaWhatsapp></FaWhatsapp>Whatsapp</ListGroup.Item>
-                    <ListGroup.Item action className='mb-2'><FaTwitter></FaTwitter>Twitter </ListGroup.Item>
-                    <ListGroup.Item action className='mb-2'><FaTwitch></FaTwitch>Twitch</ListGroup.Item>
+                    <ListGroup.Item className='mb-2 outline-dark'><FaFacebook></FaFacebook>Facebook</ListGroup.Item>
+                    <ListGroup.Item className='mb-2'><FaWhatsapp></FaWhatsapp>Whatsapp</ListGroup.Item>
+                    <ListGroup.Item className='mb-2'><FaTwitter></FaTwitter>Twitter </ListGroup.Item>
+                    <ListGroup.Item className='mb-2'><FaTwitch></FaTwitch>Twitch</ListGroup.Item>
+
                 </ListGroup>
             </div>
-            <div className='mt-5'>
-                <BrandCarousel></BrandCarousel>
+            <div>
+
             </div>
         </div>
     );

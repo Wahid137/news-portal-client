@@ -22,7 +22,7 @@ const RightSideNav = () => {
                     <ListGroup.Item action className='mb-2'><FaTwitch></FaTwitch>Twitch</ListGroup.Item>
                 </ListGroup>
             </div>
-            <div className='mt-5'>
+            <div>
                 <BrandCarousel></BrandCarousel>
             </div>
         </div>
